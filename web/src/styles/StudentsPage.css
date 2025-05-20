@@ -1,0 +1,121 @@
+.students-page {
+  background: #f7f8fa;
+  padding: 32px 24px 24px 24px;
+  min-height: 100vh;
+}
+.students-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.students-header h2 {
+  font-size: 2rem;
+  color: #1a2b49;
+  font-weight: bold;
+}
+.btn-ajouter {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 26px;
+  font-size: 1.08rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn-ajouter:hover {
+  background: #388e3c;
+}
+.students-filtres {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.students-filtres input, .students-filtres select {
+  padding: 9px 14px;
+  border: 1.2px solid #e0e0e0;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #fff;
+  color: #1a2b49;
+  outline: none;
+  min-width: 160px;
+}
+.students-table-container {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 0 0 12px 0;
+  overflow-x: auto;
+}
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.04rem;
+}
+.students-table th, .students-table td {
+  padding: 13px 10px;
+  text-align: left;
+}
+.students-table th {
+  background: #f7f8fa;
+  color: #1a2b49;
+  font-weight: bold;
+  border-bottom: 2px solid #e0e0e0;
+}
+.students-table tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+.students-table tr:last-child {
+  border-bottom: none;
+}
+.statut-actif {
+  color: #4caf50;
+  font-weight: bold;
+  background: #e6f7ee;
+  border-radius: 8px;
+  padding: 3px 12px;
+}
+.statut-inactif {
+  color: #e53935;
+  font-weight: bold;
+  background: #ffeaea;
+  border-radius: 8px;
+  padding: 3px 12px;
+}
+.btn-action {
+  background: #f7f8fa;
+  color: #1a2b49;
+  border: 1px solid #e0e0e0;
+  border-radius: 7px;
+  padding: 6px 14px;
+  margin-right: 7px;
+  font-size: 0.98rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.btn-action:hover {
+  background: #e6f7ee;
+  color: #388e3c;
+}
+.btn-supprimer {
+  color: #e53935;
+  border-color: #ffcdd2;
+}
+.btn-supprimer:hover {
+  background: #ffeaea;
+  color: #b71c1c;
+}
+@media (max-width: 900px) {
+  .students-filtres {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .students-header {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+} 
