@@ -1,0 +1,61 @@
+{
+   "checksum": "f669a2cf7784a6ac46e3c9fe85dbf751",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13311029617643780",
+            "date_last_used": "0",
+            "guid": "58bf56a9-1946-4197-8160-0bae971fafcf",
+            "id": "6",
+            "name": "Exercices corrigés -Développements limités",
+            "type": "url",
+            "url": "https://www.bibmath.net/ressources/index.php?action=affiche&quoi=bde/analyse/unevariable/dl&type=fexo"
+         }, {
+            "children": [  ],
+            "date_added": "13313975313655796",
+            "date_last_used": "0",
+            "date_modified": "13313975313655796",
+            "guid": "674be97e-ab3e-462b-8061-b85890524860",
+            "id": "7",
+            "name": "Nouveau dossier",
+            "type": "folder"
+         }, {
+            "date_added": "13313975316040709",
+            "date_last_used": "0",
+            "guid": "8ec6f4ce-61b2-41f9-a498-91b4be3e7a91",
+            "id": "8",
+            "name": "loops - Finding max and min in assembly - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/18950300/finding-max-and-min-in-assembly"
+         } ],
+         "date_added": "13392078785794032",
+         "date_last_used": "0",
+         "date_modified": "13313975316040709",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13392078785794036",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13392078785794041",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

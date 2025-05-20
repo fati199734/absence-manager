@@ -1,0 +1,72 @@
+{
+   "checksum": "c48f3ec29d920d048a6a8777ff7455c2",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13311029617643780",
+            "date_last_used": "0",
+            "guid": "58bf56a9-1946-4197-8160-0bae971fafcf",
+            "id": "6",
+            "name": "Exercices corrigés -Développements limités",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.bibmath.net/ressources/index.php?action=affiche&quoi=bde/analyse/unevariable/dl&type=fexo",
+            "visit_count": 0
+         }, {
+            "children": [  ],
+            "date_added": "13313975313655796",
+            "date_last_used": "0",
+            "date_modified": "13313975313655796",
+            "guid": "674be97e-ab3e-462b-8061-b85890524860",
+            "id": "7",
+            "name": "Nouveau dossier",
+            "source": "unknown",
+            "type": "folder"
+         }, {
+            "date_added": "13313975316040709",
+            "date_last_used": "0",
+            "guid": "8ec6f4ce-61b2-41f9-a498-91b4be3e7a91",
+            "id": "8",
+            "name": "loops - Finding max and min in assembly - Stack Overflow",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/18950300/finding-max-and-min-in-assembly",
+            "visit_count": 0
+         } ],
+         "date_added": "13392078785794032",
+         "date_last_used": "0",
+         "date_modified": "13313975316040709",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13392078785794036",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13392078785794041",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CkEKHgiIgQISCN2JXuWWAQAAKg4QABgBIAAoBjAAOABAABIAKhh0VDZxTHY4R0sxcnAwMU9KMVZiNllBPT1IA6AGDBKtAQgIEqgBChwvMkZvSEljTUd6bSs0SlN6d3pCUlJoQ1lhSms9EiQ4ZWM2ZjRjZS02MWIyLTQxZjktYTQ5OC05MWI0YmUzZTdhOTEYACAAKAAwgqqtjMQxOIivrYzEMUCIr62MxDFKHFFxeThxVjg4SHZwMWl0VGZneHU2TjBFMWlMWT1aHyId20xzdk9PV1B5UEQxWThuR0JKU24ySUZPSVlSdz1lD8w0FMI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDJmYzY4ZjkyLTkwZmYtNTIxYy1iNzRiLTI0MTg3NjUxZDE5YhgAIAAoADCB0pvjgzE41NSb44MxQNTUm+ODMUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKOAQgCEokBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ2Njc3MmU4Ni1hMDFkLTU0NzEtYjk2Ni0wNTYxZjAxYzJmYmMYACAAKAAw/NGb44MxONDTm+ODMUDQ05vjgzFKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAwj4CYAASrAEIBhKnAQocMzVUQ2UzaS8rZzVIQ2RWMDgyVjFvODBYWmpVPRIkNThiZjU2YTktMTk0Ni00MTk3LTgxNjAtMGJhZTk3MWZhZmNmGAAgACgAMIGqrYzEMTjqrq2MxDFA6q6tjMQxShxlN3h2eHI5eVNEdnNoSnRiVXl2VXdNQTAyaHM9Wh4iHG9CWHJYK05KSFdvVlFDWXEya2JyWEMwdFhSVT1lOvQOPcI+AmAFEo4BCAESiQEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDU5NGUwMzEzLWI2MjMtNTdhNS05ZmJjLTg3Mjg3ZjU5MGRlZBgAIAAoADD70ZvjgzE4rdOb44MxQK3Tm+ODMUocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAADCPgJgABKtAQgHEqgBChxGdERHNzZrY0VpMS9YczJNV2FzMW5HN1hxbG89EiQ2NzRiZTk3ZS1hYjNlLTQ2MmItODA2MS1iODU4OTA1MjQ4NjAYACAAKAAwgKqtjMQxOM+urYzEMUDPrq2MxDFKHGw2bURaMUY3RktBMElPQ3hKeWNsS1Y4S1BJaz1aHyIdt0xrN3hDSTFkT0E2WnRPOEVwdG9sR21nVkc3cz1lAAAAAMI+AmAAMAA4AA==",
+   "version": 1
+}

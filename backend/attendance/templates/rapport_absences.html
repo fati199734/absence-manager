@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titre }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .header { display: flex; align-items: center; margin-bottom: 20px; }
+        .header img { height: 80px; margin-right: 20px; }
+        .header .title-block { flex: 1; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #333; padding: 8px; text-align: left; }
+        th { background: #f2f2f2; }
+        .filters { margin-bottom: 10px; font-size: 1.1em; }
+        .total { margin-top: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="{{ logo_path }}" alt="Logo EST Salé">
+        <div class="title-block">
+            <h2>{{ titre }}</h2>
+            {% if filiere_nom %}<div class="filters">Filière : {{ filiere_nom }}</div>{% endif %}
+            {% if groupe_nom %}<div class="filters">Groupe : {{ groupe_nom }}</div>{% endif %}
+            {% if periode %}<div class="filters">{{ periode }}</div>{% endif %}
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Étudiant</th>
+                <th>Code Apogée</th>
+                <th>Email</th>
+                <th>Séance</th>
+                <th>Date</th>
+                <th>Statut</th>
+                <th>Justifiée</th>
+                <th>Motif</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for absence in absences %}
+            <tr>
+                <td>{{ absence.etudiant }}</td>
+                <td>{{ absence.code_apogee }}</td>
+                <td>{{ absence.email }}</td>
+                <td>{{ absence.seance }}</td>
+                <td>{{ absence.date }}</td>
+                <td>{{ absence.statut }}</td>
+                <td>{{ absence.justifiee }}</td>
+                <td>{{ absence.motif }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <div class="total">Total absences listées : {{ total }}</div>
+</body>
+</html> 
